@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sh ./scripts/clean
+flutter build appbundle --release
+flutter build ios --release

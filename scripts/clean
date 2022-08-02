@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf ios/Flutter/App.framework
+rm ios/Podfile
+
+flutter clean

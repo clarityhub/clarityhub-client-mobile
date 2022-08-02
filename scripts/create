@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# xcrun simctl list
+
+ID=`xcrun simctl create ClarityHub-iPhone-11 com.apple.CoreSimulator.SimDeviceType.iPhone-11-Pro-Max com.apple.CoreSimulator.SimRuntime.iOS-13-6`
+
+xcrun simctl boot $ID
